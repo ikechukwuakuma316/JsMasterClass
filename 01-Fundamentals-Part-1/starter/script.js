@@ -151,7 +151,7 @@ console.log(`Just a regular string...`);
 console.log(`String with
 multiple 
 lines`);
-**/
+
 //Taking Decisions
 
 const age = 15;
@@ -172,6 +172,28 @@ if (age >= 18) {
     century = 21;
  }
  console.log(century);
+**/
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+if (BMIMark > BMIJohn) {
+    console.log("Mark's BMI is higher than John's!")
+} else {
+    console.log("John's BMI is higher than Mark's!")
+}
+ 
 
 
 
